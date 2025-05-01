@@ -5,8 +5,8 @@
   home.homeDirectory = "/home/sirkku";
   home.stateVersion = "24.11"; # Please read the comment before changing.
   
-  # wayland.windowManager.hyprland.enable = true;
-  # wayland.windowManager.hyprland.systemd.enable = false;
+  wayland.windowManager.hyprland.enable = true;
+  wayland.windowManager.hyprland.systemd.enable = false;
 
   programs.git = {
     enable = true;
@@ -23,7 +23,7 @@
     pkgs.kitty
     pkgs.tree
     pkgs.neovim
-    # pkgs.fuzzel
+    pkgs.fuzzel
     pkgs.firefox
     pkgs.btop
     pkgs.superfile
